@@ -1,0 +1,120 @@
+<html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viwport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/x-icon" href="favicon (1).ico">
+<title>Air polution.</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+<script src="First java.js"></script>
+<script>
+ alert("This page is made by Shalom a student learning computer science for the first time, the information might not be acurate.");
+</script>
+</head>
+<body>
+<header>Air Pollution.</header>
+<div class="topnav">
+<a href="index.html">Home</a>
+<a href="Pollution(1).html">Problems</a>
+<a href="Pollution(2).html">Effects</a>
+<a href="Pollution(3).html">Economy</a>
+<a href="https://www.who.int/health-topics/air-pollution">World Health organization(WHO)</a>
+<a href="https://www.nrdc.org/stories/air-pollution-everything-you-need-know">Natural Resources Defense Council.</a>
+<a href="https://www.nationalgeographic.org/encyclopedia/air-pollution/">National Geographic</a>
+<a href="https://en.wikipedia.org/wiki/Air_pollution" >Wikipedia</a>
+<a href="https://www.britannica.com/science/air-pollution">Britannica</a>
+<input type="text" placeholder="Search..">
+</div>
+<li class="dropdown">
+<a href="Aquatic Animals.html" class="dropbtn">Aquatic life and other interests</a>
+<div class="dropdown-content">
+<a href="Military.html">My other page (MILITARY)</a>
+<a href="personal_interest.html">My other page (My hobby)</a>
+</div>
+</li>
+<hr />
+<h1><u><b>Effects of Air pollution on the economy.</b></u></h1>
+<p><i>Poor air quality is linked to a vast array of economic costs, such as those from healthcare expenses, lost productivity, ecosystem damage, and decreased tourism. Fortunately, extensive research proves that the benefits of reducing air pollution far outweigh the costs of doing so.</i></p>
+<hr />
+<h1><u><b>Where is air pollution?</b></u></h1>
+<p><i>Though every country in the world deals with air pollution to some extent, the problem of air pollution is far worse in developing countries. Developing countries have challenges that developed countries don't, such as rapid and unregulated economic expansion, and as a result, their pollution problems are worse.</i></p>
+<hr />
+<div class="image container">
+<img src="https://odishabytes.com/wp-content/uploads/2021/02/Air-pollution-Discover-Bhubaneswar.jpg.webp" alt="India Among 5 Nations Most Vulnerable To Risks Of Climate Change, Air  Pollution - odishabytes"  width="400" height="700"/>
+<img src="https://ourworldindata.org/grapher/exports/share-deaths-air-pollution.svg" alt="Air Pollution - Our World in Data"  width="400" height="700"/>
+<img src="https://www.allianzgi.com/-/media/allianzgi/globalagi/editorial/tackling-air-pollution/the-economic-burden-of-air-pollution.png?rev=1d76d8cef778495688eeae7c1291e771&amp;hash=3BBC94296530219AC176834C73BDAD51" alt="Tackling air pollution with sustainable investments"  width="400" height="700"/></div>
+
+
+<hr />
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+
+
+<canvas id="myChart" style="width:100%;max-width:600px"></canvas>
+
+<script>
+const xValues = ["Nitrogen", "oxygen", "Other gases ", "Argon", "Carbon"];
+const yValues = [78, 21, 1, 1, 0.04];
+const barColors = [
+  "#b91d47",
+  "#00aba9",
+  "#2b5797",
+  "#e8c3b9",
+  "#1e7145"
+];
+
+new Chart("myChart", {
+  type: "pie",
+  data: {
+    labels: xValues,
+    datasets: [{
+      backgroundColor: barColors,
+      data: yValues
+    }]
+  },
+  options: {
+    title: {
+      display: true,
+      text: "Composition of inhaled air"
+    }
+  }
+});
+
+</script>
+<hr />
+
+<script>
+const d = new Date();
+document.getElementById("demo").innerHTML = d;
+</script>
+
+
+
+<footer><p>Credits:SHALOM IRASUBIZA:Owner, MR ERIC:Teacher.</p></footer>
+
+
+<li class="dropdown">
+<a href="Aquatic Animals.html" class="dropbtn">Aquatic life and other interests</a>
+<div class="dropdown-content">
+<a href="Military.html">My other page (MILITARY)</a>
+<a href="personal_interest.html">My other page (My hobby)</a>
+<a href="Air pollution.html">Home</a>
+<a href="Pollution(1).html">Problems</a>
+<a href="Pollution(2).html">Effects</a>
+<a href="Pollution(3).html">Economy</a>
+<a href="https://www.who.int/health-topics/air-pollution">World Health organization(WHO)</a>
+<a href="https://www.nrdc.org/stories/air-pollution-everything-you-need-know">Natural Resources Defense Council.</a>
+<a href="https://www.nationalgeographic.org/encyclopedia/air-pollution/">National Geographic</a>
+<a href="https://en.wikipedia.org/wiki/Air_pollution" >Wikipedia</a>
+<a href="https://www.britannica.com/science/air-pollution">Britannica</a>
+</div>
+</li>
+
+
+
+
+
+</body>
+</html>
